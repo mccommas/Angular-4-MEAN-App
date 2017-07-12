@@ -1,6 +1,3 @@
-/**
- * Created by jmccommas on 7/10/17.
- */
 var express = require('express');
 var router = express.Router();
 
@@ -99,3 +96,4 @@ router.delete('/:id', function(req, res, next) {
 	});
 });
 
+module.exports = router;
